@@ -1,7 +1,8 @@
 # System
 tgcrypto
 git+https://github.com/AmanoTeam/pyrogram.git
-uvloop>=0.4.0,<0.17.0; platform_system != "Windows"
+git+https://github.com/MagicStack/uvloop.git
+uvloop ; platform_system != "Windows"
 
 # Database
 aiosqlite
